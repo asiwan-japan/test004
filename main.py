@@ -49,7 +49,7 @@ st.audio(audio_bytes, format='audio/ogg')
 
 aaa = st.sidebar.selectbox(
     "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
+    ("たまプラーザ", "あざみ野駅前", "フレル鷺沼")
 ) 
 
 option = st.selectbox(
