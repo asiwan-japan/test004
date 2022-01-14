@@ -29,60 +29,60 @@ st.balloons()
 
 # st.write("Display Image")
 
-# from PIL import Image
-# image = Image.open('sample.jpg')
+from PIL import Image
+image = Image.open('sample.jpg')
 
 
 
-# if st.button('click me!'):
-#      st.balloons()
-# # # col1.map(df)
+if st.button('click me!'):
+     st.balloons()
+# # col1.map(df)
 
-# st.image(image, caption='稲村ヶ崎', use_column_width=True)
+st.image(image, caption='稲村ヶ崎', use_column_width=True)
 
 
 
-# audio_file = open('20220112.ogg', 'rb')
-# audio_bytes = audio_file.read()
+audio_file = open('20220112.ogg', 'rb')
+audio_bytes = audio_file.read()
 
-# st.audio(audio_bytes, format='audio/ogg')
+st.audio(audio_bytes, format='audio/ogg')
 
-# aaa = st.sidebar.selectbox(
-#     "How would you like to be contacted?",
-#     ("Email", "Home phone", "Mobile phone")
-# ) 
+aaa = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+) 
 
-# option = st.selectbox(
-#     'あなたが好きな数字を教えてください',
-#     list(range(1, 11))
-# )
+option = st.selectbox(
+    'あなたが好きな数字を教えてください',
+    list(range(1, 11))
+)
 
-# 'あなたが好きな数字は',option,'です'
-# if(option  == 10):
-#     st.balloons()
+'あなたが好きな数字は',option,'です'
+if(option  == 10):
+    st.balloons()
 
-# # option2 = st.text_input(
-# #     "あなたの趣味を教えてください",
-# # )
-# # if option2:
+option2 = st.text_input(
+    "あなたの趣味を教えてください",
+)
+# if option2:
 
 
 # # condition = st.sidebar.slider('あなたの今の調子は？',0,100,50)
 # # "コンディション：",condition
 
-# col1, col2 = st.columns(2)
-# button = col1.button("文字を表示")
-# if button:
-#     col2.write(
-#         """
-#         おりゃ文字だぞこら \n
-#         見てんのかおい
-#         """)
+col1, col2 = st.columns(2)
+button = col1.button("文字を表示")
+if button:
+    col2.write(
+        """
+        おりゃ文字だぞこら \n
+        見てんのかおい
+        """)
 
-# expander = st.expander("疲れた方へ...")
-# expander.write(
-#     """
-#     うぇいっ！\n
-#     ばーかばーか
-#     """
-# )
+expander = st.expander("疲れた方へ...")
+expander.write(
+    """
+    うぇいっ！\n
+    ばーかばーか
+    """
+)
