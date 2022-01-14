@@ -15,6 +15,8 @@ for percent_complete in range(100):
     bar.progress(percent_complete + 1)
 
 st.balloons()
+if st.button('再読み込み'):
+     st.balloons()
 
 """
 読み込み完了
@@ -33,9 +35,6 @@ from PIL import Image
 image = Image.open('sample.jpg')
 
 
-
-if st.button('click me!'):
-     st.balloons()
 # # col1.map(df)
 
 st.image(image, caption='稲村ヶ崎', use_column_width=True)
