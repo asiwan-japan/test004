@@ -42,15 +42,15 @@ st.image(image, caption='稲村ヶ崎', use_column_width=True)
 
 
 
-audio_file = open('20220112.ogg', 'rb')
-audio_bytes = audio_file.read()
+# audio_file = open('20220112.ogg', 'rb')
+# audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format='audio/ogg')
+# st.audio(audio_bytes, format='audio/ogg')
 
-aaa = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-) 
+# aaa = st.sidebar.selectbox(
+#     "How would you like to be contacted?",
+#     ("Email", "Home phone", "Mobile phone")
+# ) 
 
 # option = st.selectbox(
 #     'あなたが好きな数字を教えてください',
