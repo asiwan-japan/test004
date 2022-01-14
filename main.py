@@ -29,16 +29,16 @@ st.balloons()
 
 # st.write("Display Image")
 
-from PIL import Image
-image = Image.open('sample.jpg')
+# from PIL import Image
+# image = Image.open('sample.jpg')
 
 
 
-if st.button('click me!'):
-     st.balloons()
-# # col1.map(df)
+# if st.button('click me!'):
+#      st.balloons()
+# # # col1.map(df)
 
-st.image(image, caption='稲村ヶ崎', use_column_width=True)
+# st.image(image, caption='稲村ヶ崎', use_column_width=True)
 
 
 
